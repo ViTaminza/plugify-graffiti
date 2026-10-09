@@ -1,0 +1,79 @@
+// A format-faithful fragment of CS2's scripts/items/items_game.txt: the sticker_kits block with
+// spray_* entries (several sticker_kits blocks exist in the real file, the parser walks them all),
+// a non-spray sticker kit that has to be ignored, and the graffiti_tints block. The real file
+// lives in the game install and is ~10 MB; this sample exercises every branch of the parser.
+"items_game"
+{
+	"sticker_kits"
+	{
+		"1"
+		{
+			"name"					"spray_std_dollar"
+			"item_name"				"#SprayKit_std_dollar"
+			"rarity"				"rarity_common"
+		}
+		"2"
+		{
+			"name"					"spray_std2_heart"
+			"item_name"				"#SprayKit_std2_heart"
+		}
+		"3"
+		{
+			"name"					"spray_vcap1_googly"
+			"item_name"				"#SprayKit_vcap1_googly"
+		}
+		"4"
+		{
+			"name"					"spray_illuminate1_glow"
+			"item_name"				"#SprayKit_illuminate1_glow"
+		}
+		"5"
+		{
+			"name"					"spray_weirdgroup_zebra"
+			"item_name"				"#SprayKit_weirdgroup_zebra"
+		}
+		"6"
+		{
+			"name"					"sticker_std_dollar"
+			"item_name"				"#StickerKit_std_dollar"
+		}
+		"7"
+		{
+			"name"					"spray_std3_notranslation"
+			"item_name"				"#SprayKit_std3_notranslation"
+		}
+	}
+	"sticker_kits"
+	{
+		"1"
+		{
+			"name"					"spray_std_dollar"
+			"item_name"				"#SprayKit_std_dollar"
+		}
+		"8"
+		{
+			"name"					"spray_std_bomb"
+			"item_name"				"#SprayKit_std_bomb"
+		}
+		"0"
+		{
+			"name"					"spray_std_zeroid"
+			"item_name"				"#SprayKit_std_zeroid"
+		}
+	}
+	"graffiti_tints"
+	{
+		"brick_red"
+		{
+			"id"					"1"
+		}
+		"navy_blue"
+		{
+			"id"					"2"
+		}
+		"notint"
+		{
+			"id"					"0"
+		}
+	}
+}

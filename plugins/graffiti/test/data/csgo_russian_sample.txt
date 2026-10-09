@@ -1,0 +1,17 @@
+// A fragment of resource/csgo_russian.txt in the real layout (the parser reads one "token" "text"
+// pair per line and keeps the SprayKit_* / Attrib_SprayTintValue_* tokens).
+"lang"
+{
+	"Language"		"Russian"
+	"Tokens"
+	{
+		"SprayKit_std_dollar"		"Доллар"
+		"SprayKit_std_bomb"			"Бомба"
+		"SprayKit_std2_heart"		"Сердце"
+		"SprayKit_vcap1_googly"		"Глаза"
+		"SprayKit_illuminate1_glow"	"Свечение\nв темноте"
+		"Attrib_SprayTintValue_1"	"Кирпично-красный"
+		"Attrib_SprayTintValue_2"	"Синий"
+		"SomeOther_Token"			"Игнорируется"
+	}
+}
