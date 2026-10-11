@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/untrustedmodders/plugify/refs/heads/main/schemas/plugin.schema.json",
+	"version": "${GRAFFITI_VERSION}",
+	"name": "graffiti",
+	"description": "CS2 graffiti for everyone, sprayed by the server (no inventory item): the plugin creates a player_spray_decal with the chosen design (sticker kit spray_*) and colour, ported from the Metamod:Source plugin 'graffiti' by ezekutor. Designs, colours and their localized names come from the game files (scripts/items/items_game.txt, resource/csgo_<lang>.txt), so new CS2 graffiti appear in the menu by themselves. Draw with a double tap of E (per-player switch) or with the console command mm_spray (bind t mm_spray); !graffiti / !spray open the menu (design by category, colour, double E). Config configs/graffiti/graffiti.ini, phrases configs/graffiti/translations/graffiti.phrases.txt; the per-player selection lives in the official permissions cookies (Graffiti.Kit / Graffiti.Tint / Graffiti.DoubleE). No exported methods.",
+	"author": "ezekutor, Metamod port; ported to Plugify",
+	"website": "https://github.com/untrustedmodders/plugify",
+	"license": "GPL-3.0",
+	"entry": "bin/graffiti",
+	"platforms": [],
+	"language": "cpp",
+	"dependencies": [
+		{
+			"name": "s2sdk",
+			"constraints": ">=2.18.2"
+		},
+		{
+			"name": "permissions",
+			"constraints": ">=1.3.1",
+			"optional": true
+		},
+		{
+			"name": "hudmenu",
+			"constraints": ">=1.0.0",
+			"optional": true
+		}
+	],
+	"methods": []
+}

@@ -1,0 +1,31 @@
+// Тексты плагина Graffiti. Названия рисунков и цветов берутся из файлов игры, здесь их нет.
+// Цвета чата: {DEFAULT} {GREEN} {RED} {LIGHTGREEN} {GOLD} и другие цвета utils.
+"Phrases"
+{
+	"Prefix"            { "ru" "{GREEN}[Граффити]{DEFAULT}"   "en" "{GREEN}[Graffiti]{DEFAULT}" }
+	"Menu_Title"        { "ru" "Граффити"                     "en" "Graffiti" }
+	"Menu_Kit"          { "ru" "Рисунок: {name}"              "en" "Design: {name}" }
+	"Menu_Tint"         { "ru" "Цвет: {name}"                 "en" "Color: {name}" }
+	"Menu_DoubleE"      { "ru" "Рисовать двойным E: {state}"  "en" "Spray with double E: {state}" }
+	"Menu_Help"         { "ru" "Как нарисовать"               "en" "How to spray" }
+	"Menu_Kits_Title"   { "ru" "Рисунок"                      "en" "Design" }
+	"Menu_Tints_Title"  { "ru" "Цвет"                         "en" "Color" }
+	"Random"            { "ru" "Случайный"                    "en" "Random" }
+	"On"                { "ru" "вкл"                          "en" "on" }
+	"Off"               { "ru" "выкл"                         "en" "off" }
+	"Category_std"          { "ru" "Стандартные"     "en" "Standard" }
+	"Category_std2"         { "ru" "Стандартные II"  "en" "Standard II" }
+	"Category_std3"         { "ru" "Оружие"          "en" "Weapons" }
+	"Category_vcap1"        { "ru" "Капсула 1"       "en" "Capsule 1" }
+	"Category_illuminate1"  { "ru" "Illuminate"      "en" "Illuminate" }
+	"Category_other"        { "ru" "Особые"          "en" "Special" }
+	"Selected_Kit"      { "ru" "{PREFIX} Рисунок: {GREEN}{name}"  "en" "{PREFIX} Design: {GREEN}{name}" }
+	"Selected_Tint"     { "ru" "{PREFIX} Цвет: {GREEN}{name}"     "en" "{PREFIX} Color: {GREEN}{name}" }
+	"Cooldown"          { "ru" "{PREFIX} Следующее граффити через {RED}{sec}{DEFAULT} сек."  "en" "{PREFIX} Next graffiti in {RED}{sec}{DEFAULT} s." }
+	"Too_Far"           { "ru" "{PREFIX} Подойдите ближе к стене"  "en" "{PREFIX} Move closer to a wall" }
+	"Bad_Surface"       { "ru" "{PREFIX} Здесь рисовать нельзя"    "en" "{PREFIX} You can't spray here" }
+	"Help"              { "ru" "{PREFIX} Посмотрите на стену и дважды нажмите {GREEN}E{DEFAULT} или нажмите клавишу с биндом {GREEN}bind t mm_spray{DEFAULT} (в консоли)"
+	                      "en" "{PREFIX} Look at a wall and double-tap {GREEN}E{DEFAULT}, or use a key bound in console: {GREEN}bind t mm_spray" }
+	"DoubleE_Set"       { "ru" "{PREFIX} Двойное E: {GREEN}{state}"  "en" "{PREFIX} Double E: {GREEN}{state}" }
+	"Settings_Item"     { "ru" "Граффити двойным E"  "en" "Graffiti with double E" }
+}
